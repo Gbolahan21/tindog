@@ -1,0 +1,159 @@
+* {
+    font-family: roboto;
+}
+
+#title {
+    background-color: #ff4c68;
+    height: 1000px;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    margin-left: 30px;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: roboto;
+    font-size: 1.5rem;
+}
+
+p {
+    color: grey;
+}
+
+/* navigation bar */
+
+.navbar {
+    padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/* downlaod button */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+    margin-left: 30px;
+}
+
+/* title image */
+
+.title-image {
+    width: 35%;
+    transform: rotate(25deg);
+    position: absolute;
+    top: 33%;
+}
+
+/* features section */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* testimonials section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* press section */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing {
+    text-align: center;
+    padding: 5%;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* cta section */
+
+#cta {
+    text-align: center;
+    background-color: #ef8172;
+    padding: 3% 15%;
+}
+
+.download {
+    margin: 5% 3% 5% 0;
+    margin-left: 30px;
+}
+
+/* footer section */
+
+#footer {
+    text-align: center;
+    background-color: #ef8172;
+    padding: 3% 15%;
+}
